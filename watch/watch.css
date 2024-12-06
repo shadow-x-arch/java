@@ -1,0 +1,111 @@
+body{
+    background-image:url(amongus.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   height:100vh;
+  
+  
+
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+    color: aqua;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#clock{
+    font: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 6.5em;
+    font-weight: bold;
+    text-align: center;
+    color: aqua;
+    backdrop-filter: blur(2px);
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgb(126, 148, 179);
+  
+}
+
+#controlers{
+    margin-top: 60px;
+   
+    
+}
+
+
+
+  #start {
+    margin: 15px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 5px rgb(140, 228, 240), 0 0 10px rgb(117, 212, 219), 0 0 15px #0f0, 0 0 20px #0f0;
+  }
+
+  #start:hover {
+    background-color: hsl(175, 37%, 62%);
+    box-shadow: 0 0 20px #0f0, 0 0 25px #0f0, 0 0 30px #0f0, 0 0 40px #0f0;
+  }
+
+
+  #stop {
+    margin: 15px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    border-radius: 15px;
+    background: rgba(255, 0, 0, 0.1);
+    color: white;
+    text-transform: uppercase;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #stop:hover {
+    background: rgba(255, 0, 0, 0.3);
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.2);
+  }
+
+
+  #reset { margin: 15px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  #reset:hover {
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    color: white;
+  }
+

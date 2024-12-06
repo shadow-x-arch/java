@@ -1,0 +1,73 @@
+body{
+    background-image:url(amongus.jpg) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+
+}
+
+#calculator{
+  font-family: Arial, sans-serif;
+  background-color: hsl(0, 0%, 15%);
+  border-radius: 15px;
+  max-width:350px;
+  overflow: hidden;
+
+  height:80vh;
+ 
+  
+
+
+}
+
+
+#display{
+  width: 100%;
+  padding: 20px;
+  font-size: 5em;
+  text-align: left;
+  border: none;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+
+}
+#keys{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  padding: 10px 10px ;
+
+  align-items: center;
+}
+button{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  border: none;
+  background-color: hsla(36, 4%, 55%, 0.39);
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+button:hover{
+  background-color: hsla(36, 4%, 55%, 0.79);
+}
+button:active{
+  background-color: hsla(33, 83%, 47%, 0.79);
+}
+
+.operator{
+  background-color: hsla(64, 74%, 60%, 0.59);
+}
+
+.operator:hover{
+  background-color: hsla(64, 74%, 60%, 0.99);
+}
+.operator:active{
+  background-color: hsla(56, 92%, 47%, 0.79);
+}

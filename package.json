@@ -1,0 +1,16 @@
+{
+  "name": "java-script",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.1",
+    "util": "^0.12.5",
+    "whatwg-url": "^14.1.0"
+  }
+}

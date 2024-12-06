@@ -1,0 +1,62 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image:url(amongus.jpg) ;
+  text-align: center;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: hsl(118, 68%, 79%);
+  margin-bottom: 30px;
+}
+
+.choices {
+  margin-bottom: 30px;
+}
+
+.choices button {
+  min-width: 160px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 250px;
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.choices button:hover {
+  background-color: hsl(200, 100%, 70%);
+}
+
+#playerDisplay, 
+#computerDisplay {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+#resultDisplay {
+  font-size: 5rem;
+  margin: 30px 0;
+}
+
+.scoreDisplay {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.greenText, 
+#playerScoreDisplay {
+  color: hsl(130, 84%, 54%);
+}
+
+.redText, 
+#computerScoreDisplay {
+  color: hsl(0, 84%, 60%);
+}

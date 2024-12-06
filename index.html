@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Buttons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('amongus.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-position: center;
+            background-repeat: no-repeat;           
+            background-attachment: fixed;
+            margin: 0%;
+            height: 100vh;
+        }
+        .button-container {
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            color: white;
+        }
+        .button1 { background-color: #4CAF50; } /* Green */
+        .button2 { background-color: #2196F3; } /* Blue */
+        .button3 { background-color: #f44336; } /* Red */
+        .button4 { background-color: #ffeb3b; color: black; } /* Yellow */
+        .button5 { background-color: #9c27b0; } /* Purple */
+        @media (max-width: 600px) {
+            .button { padding: 10px 20px; font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+    <a href="./weather-app/weather-app.html"> <button class="button button1">weather app</button></a>
+    <a href="./calc/calculator.html"> <button class="button button2">calculator</button></a>
+    <a href="./digital/digital-clock.html"> <button class="button button3">digital watch</button></a>
+    <a href="./watch/watch.html"> <button class="button button4">stop watch</button></a>
+    <a href="./rock-p-scissor/rock-p-scissor.html"> <button class="button button5">rock paper scissor</button></a>
+    </div>
+</body>
+</html>
